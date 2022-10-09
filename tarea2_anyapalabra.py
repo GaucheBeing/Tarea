@@ -211,8 +211,7 @@ def iniciar(dificultad):
     return anyapalabra(rosco)
 
 # anyapalabra: lista(PalabraRosco) -> None
-# Función: inicia el juego
-# Ej:
+# Función: inicia el juego PasaPalabra
 def anyapalabra(LR):
     assert esLista(LR)
     print("\n")
